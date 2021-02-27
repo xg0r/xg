@@ -1,0 +1,6 @@
+#! /bin/bash/
+date +'%I:%M'|toilet -f future >> lol
+sed -n 1p lol
+sed -n 2p lol
+sed -n 3p lol
+rm -f lol

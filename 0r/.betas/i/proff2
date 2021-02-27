@@ -1,0 +1,13 @@
+#! /bin/bash/
+azzu="\[$(tput setaf 4)\]"
+veer="\[$(tput setaf 2)\]"
+cyy="\[$(tput setaf 6)\]"
+rooj="\[$(tput setaf 1)\]"
+roos="\[$(tput setaf 5)\]"
+amma="\[$(tput setaf 3)\]"
+blan="\[$(tput setaf 7)\]"
+fnn="\[$(tput sgr0)\]"
+zzu='\e[4m'
+PS1=" ╔$rooj\u$fnn ║ $azzu\w$blan$fnn 📂      
+╔╩═║$c0l1\@$fnn$c0l2$fnn
+╚╬"

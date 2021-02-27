@@ -1,0 +1,8 @@
+#! /bin/bash/
+eog http://sirocco.accuweather.com/sat_mosaic_640x480_public/IR/isamex.gif &
+
+
+temxm=$(touch tem && curl wttr.in/Morelia,Mexico?lang=es|sed 7q|cut -d' ' -f1-14 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+#clear
+echo "$temxm"
+

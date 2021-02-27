@@ -1,0 +1,7 @@
+#! /bin/bash/
+clxx="$(sh /xg/0r/.betas/i/colorr)"
+clx="$(sh /xg/0r/.betas/i/color)"
+echo -n " $clx"
+cat /xg/0r/.betas/i/bandesiert1
+echo -n " $clxx"
+cat /xg/0r/.betas/i/bandesiert2

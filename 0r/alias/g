@@ -1,0 +1,2 @@
+#! /bin/bash/
+/usr/bin/google-chrome-stable %U --no-sandbox > /dev/null 2>&1 &

@@ -1,0 +1,14 @@
+#! /bin/bash/
+echo " $finPuertos:::::1999/pov.vbs>5h
+ :::1119/::::/hhp.vbs>4h & media"
+# :::1999/sys/NT:::$c00l  $fin
+# :::1119/sys/NT:::$c00l $fin:::
+echo " :::2299/:::: $cy 1:00Pm $fin:::$c00l   $fin 
+ :::2210/sys/NT:::$c00l 10:57Pm $fin
+windows/zpol/pov:::: $fin
+
+'C:\Program Files (x86)\Nmap'
+
+execute -f xxxx.exe -i -H
+
+nmap -Pn -F -T4 -sV -A -v"

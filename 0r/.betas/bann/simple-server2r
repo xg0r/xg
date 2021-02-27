@@ -1,0 +1,10 @@
+#! /bin/bash/
+azu='\033[34m'
+pp="$(pwd)"
+fin='\e[0m'
+
+
+echo "
+Compartiendo:: $azu
+              📂$pp $fin
+ "

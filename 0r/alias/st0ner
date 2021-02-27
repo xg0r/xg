@@ -1,0 +1,186 @@
+#! /bin/bash/
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[1;31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+
+pur='\033[35m'
+gri="$(tput setaf 8)"
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[1;4m'
+fos='\e[5m'
+#gri='\e[2m'
+
+fin='\e[0m'
+############3
+azzu="$(tput setaf 4)"
+veer="$(tput setaf 2)"
+cyy="$(tput setaf 6)"
+rooj="$(tput setaf 1)"
+roos="$(tput setaf 5)"
+amma="$(tput setaf 3)"
+blan="$(tput setaf 7)"
+fnn="$(tput sgr0)\]"
+
+
+   #	function xxm () { ; }
+
+
+# clxx="$(sh /xg/0r/.betas/i/colorr)"
+# c00l="$(sh /xg/0r/.betas/i/color)"
+########     Fin Colores ##############----
+
+#------------------------------------------------------------
+
+#########   Fechas/hora   ############
+#   diasem="$(date +%A)"
+#   mes="$(date +%B)"
+#   diafech="$(date +%e)"
+#   ttime="$(date +'%I:%M')"
+#   ye="$(date +%Y)"
+######################################
+
+#-------------------------------------------
+
+########################### ip/red ####################
+#ipp="$(curl ifconfig.co)"
+#   ip="$(ip route show|grep ' src ' |cut -d' ' -f9)"
+#   ant3=`netstat -r | grep "default" | awk {'print $8'}`
+#   nomred="$(nmcli c|sed -n '2p'|cut -d' ' -f1)"
+#ipx=$(hostname -I)
+#   routt="$(ip route show|grep ' dhcp '|cut -d' ' -f3)"
+#####################################
+
+
+
+inici0 () {
+	echo "$ver"
+clear
+#cat /xg/0r/.betas/bann/calavera1
+echo "
+$fin         ▀▓▓▓▌   ■     $ver     ▓   $fin                .▄▄ · ▄▄▄▄▄       ▐ ▄ ▄▄▄ .▄▄▄  
+            ▀▀▄▄       $ver      ▓▄  $fin               ▐█ ▀. •██  ▪     •█▌▐█▀▄.▀·▀▄ █·   
+                ▀▀▓▄▄  $ver      ▐▓▀▄             ░$fin ▄▀▀▀█▄ ▐█.▪ ▄█▀▄ ▐█▐▐▌▐▀▀▪▄▐▀▀▄   
+             ▀▄   ▐▓▓█ $ver       ▐█ █▄          ▓ $fin ▐█▄▪▐█ ▐█▌·▐█▌.▐▌██▐█▌▐█▄▄▌▐█•█▌ 
+              ▐█ ▄▓▓█▀ $ver        ▓█ █▓       ▄▓  $fin  ▀▀▀▀  ▀▀▀  ▀█▄▀▪▀▀ █▪ ▀▀▀ .▀  ▀   
+        ■    ▄▓▓▓▀▀    $ver         ▓█░█▓    ▄▀▓   $fin    • ▌ ▄ ·. ▄▄▄ .▄▄▄▄▄ ▄▄▄· ▄▄▌  
+     ▄   ▄▄▀▀▀       $ver ▄▄         ▓█ █▓  ▓▌▐▌   $fin    ·██ ▐███▪▀▄.▀·•██  ▐█ ▀█ ██•  
+ ▄▓▀ ▄ ▀             $ver   ▀▀▓▓▓▄▄▄  ▓█ █▌▓█▄▓  ▄$fin     ▐█ ▌▐▌▐█·▐▀▀▪▄ ▐█.▪▄█▀▀█ ██▪ 
+▓▓▌ █▌               $ver       ▀▀▄▓▀▀▄▀██▓█▄▓ ▄▓▌$fin ▄▓▄ ██ ██▌▐█▌▐█▄▄▌ ▐█▌·▐█ ▪▐▌▐█▌▐▌       
+▀▓▓▄██▄   ▄          $ver           ▀▀▀▓▄███▀▄▓▓▀ $fin  ▀  ▀▀  █▪▀▀▀ ▀▀▀  ▀▀▀  ▀  ▀ .▀▀▀ 
+   ▀▀▀▓██▄▄          $ver      ▓▄ ▀▀▓▒▓▓▀█▓▀▀▀    $fin   ▄▓█▄ $ver   ▄▓$fin
+          ▀▀▀▓▄▄▄    $ver      ▐█▓▄    ▄▀  ▓▌     $fin    ▀▀$ver    ▄▀▓▌ $fin
+   $ver ▀ ▄▄▄▄▄    $fin▀▓▓█▄$ver        █ ▓▓        █  ▓          ▄█ █▌
+    $ver    ▀▀██▓▀█▄▄▄▄$fin▀$ver        ▐▓ ▓▓     ▄▓ ▓  ▓▄       ▓█ █▓
+    $ver        ▀▀█▄▄▀▀▓▓▄▄▄     █▓ ▓▓   ▓▐▓  $fin░$ver  ▓▀▄    ▓█░█▓░
+    $fin          ▄ $ver▀▀██▄▄▄▀▀▓▄▄  █▌▐▓▌ ▓▌▓▌     ▐▌▐▓  ▓█ █▓ ░       ▄▄
+    $fin       ▄▄▓▓▓▀ $ver  ▀▀▀██▄█▀▓▓▄▀░█▓▐▓▓▀ ▄█ ▄  ▓▄█▓▐█ █▓  ▄▄▄▓▓▓▀▀
+    $fin   ▄▄▀▀▀      $ver     ▄▄▄▀▀████▄▀█▄▀▄██▀  ▐▓▄ ▓▄█▓██▀▄▀▀▓▄▀▀
+    $fin▀▀          $ver ▄▄▄▓▓██▄██▓▀▀▀▄██▀█▀█▄▄    ▀▓▓▄▀███▄▓▀▀▀▄▄▄▄▄▄ $fin     
+"
+echo "                                     $ama 1$fin╣ 🔴 DOOM Metal Music 24/7$roj Live$fin Radio
+                                              
+                                     $ama 2$fin╣ 🔴 POST-METAL / POST-ROCK / SLUDGE METAL Music 24/7 Radio$roj Live$fin Stream 
+ 
+
+                                     $ama 3$fin╣  Stoner/Doom Radio LIVE $azzu(4h,22m)$fin
+
+                                     $ama 4$fin╣  Psychedelic & Stoner Rock Compilation $azzu(2h,2m)$fin
+
+                                     $ama 5$fin╣  A Trip To Sixties: Psychedelic Rock $azzu(46m)$fin
+
+                                     $ama 6$fin╣  Psychedelic / Stoner / Desert Rock $azzu(1h,28m)$fin
+
+"
+echo -n "═════════════════╬ "
+read kaos
+
+#####################################
+
+
+if [ $kaos = "1" ]; then
+clear && sh /xg/0r/alias/mpvv && elinks https://www.youtube.com/watch?v=dGfdGZ8cH-o >> ll && n0m="$(cat ll|sed 's/]/ /g'|grep -w 23|sed '/http/d'|sed 's/(alternate)//g'|cut -d ' ' -f6-30)" && echo "        $n0m"  && echo '' && echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video https://www.youtube.com/watch?v=dGfdGZ8cH-o 
+else
+ echo ""
+fi
+	
+
+
+if [ $kaos = "2" ]; then
+clear && sh /xg/0r/alias/mpvv && elinks https://www.youtube.com/watch?v=CklYVLsvYNY >> ll && n0m="$(cat ll|sed 's/]/ /g'|grep -w 23|sed '/http/d'|sed 's/(alternate)//g'|cut -d ' ' -f6-30)" && echo "        $n0m"  && echo '' && echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video https://www.youtube.com/watch?v=CklYVLsvYNY 
+else
+ echo ""
+fi
+	
+
+
+if [ $kaos = "3" ]; then
+clear && sh /xg/0r/alias/mpvv && elinks https://www.youtube.com/watch?v=oPIwrTffVkc&t=14s >> ll && n0m="$(cat ll|sed 's/]/ /g'|grep -w 23|sed '/http/d'|sed 's/(alternate)//g'|cut -d ' ' -f6-30)" && echo "        $n0m"  && echo '' && echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video https://www.youtube.com/watch?v=oPIwrTffVkc&t=14s
+else
+ echo ""
+fi
+
+   if [ $kaos = "4" ]; then
+clear && sh /xg/0r/alias/mpvv && elinks https://www.youtube.com/watch?v=as1QfC2L0Og&t=3s >> ll && n0m="$(cat ll|sed 's/]/ /g'|grep -w 23|sed '/http/d'|sed 's/(alternate)//g'|cut -d ' ' -f6-30)" && echo "        $n0m"  && echo '' && echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video https://www.youtube.com/watch?v=as1QfC2L0Og&t=3s
+else
+ echo ""
+fi
+
+
+   if [ $kaos = "5" ]; then
+clear && sh /xg/0r/alias/mpvv && elinks https://www.youtube.com/watch?v=tg--8NDbD90 >> ll && n0m="$(cat ll|sed 's/]/ /g'|grep -w 23|sed '/http/d'|sed 's/(alternate)//g'|cut -d ' ' -f6-30)" && echo "        $n0m"  && echo '' && echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video https://www.youtube.com/watch?v=tg--8NDbD90
+else
+echo ""
+fi
+
+
+if [ $kaos = "6" ]; then
+clear ; sh /xg/0r/alias/mpvv ; elinks https://www.youtube.com/watch?v=COaBSEILDrI&t=3s >> ll ; n0m="$(cat ll|sed 's/]/ /g'|grep -w 23|sed '/http/d'|sed 's/(alternate)//g'|cut -d ' ' -f6-30)" && echo "        $n0m"  && echo '' && echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video https://www.youtube.com/watch?v=COaBSEILDrI&t=3s
+else
+ echo ""
+fi
+
+
+if [ $kaos = "6" ]; then
+clear ; sh /xg/0r/alias/mpvv ; echo -n '  🎵 🎶 ' && rm -f ll ; mpv --no-video http://79.120.77.11:9089/
+else
+ echo ""
+fi
+
+
+} 
+
+#read varr
+
+#####################################
+#    case $kaos in
+#	     a ) clear; banne1;;
+#	     z ) sleep 1; exit;;
+#	     * ) sleep 1; echo "[1;31m
+#  Opción incorrecta";sleep 1; clear; enterchaoss;;
+#    esac
+####################################
+
+#   if [ $varr = "1" ]; then
+# clear
+# 	 echo "
+# 
+# "
+# else
+# echo ""
+# fi
+inici0

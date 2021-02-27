@@ -1,0 +1,117 @@
+#! /bin/bash/
+ko=$(date +%H)
+#ali () {
+
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+
+pur="$(tput setaf 5)"
+pur0='\033[1;35m'
+
+r0s='\033[45m'
+gri="$(tput setaf 8)"
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[4m'
+fos='\e[5m'
+
+fin='\e[0m'
+########     Fin Colores ##############----
+
+#                                         /dev/null 2>&1 &
+#echo "$az"
+
+#cat << EOF > /xg/0r/.betas/i/a3432
+touch /xg/0r/.betas/i/a3432
+echo '#! /bin/bash/' >> /xg/0r/.betas/i/a3432
+
+
+#echo "az='\033[34m'" >> /xg/0r/.betas/i/a3432
+
+#echo "clear" >> /xg/0r/.betas/i/a3432
+#echo "azz=$(echo '\e[34m')" >> /xg/0r/.betas/i/a3432
+
+echo "alias 00='echo "$fin  $cy"'" >> /xg/0r/.betas/i/a3432
+echo "alias 01='echo "$fin  $azu"'" >> /xg/0r/.betas/i/a3432
+echo "alias 02='echo "$fin  $pur"'" >> /xg/0r/.betas/i/a3432
+echo "alias 03='echo "$fin  $cy"'" >> /xg/0r/.betas/i/a3432
+echo "alias 04='echo "$fin  $azu"'" >> /xg/0r/.betas/i/a3432
+echo "alias 05='echo "$fin  $pur"'" >> /xg/0r/.betas/i/a3432
+echo "alias 06='echo "$fin  $cy"'" >> /xg/0r/.betas/i/a3432
+echo "alias 07='echo "$fin  $ver"'" >> /xg/0r/.betas/i/a3432
+echo "alias 08='echo "$fin  $ama"'" >> /xg/0r/.betas/i/a3432
+echo "alias 09='echo "$fin  $ver"'" >> /xg/0r/.betas/i/a3432
+echo "alias 10='echo "$fin  $gri"'" >> /xg/0r/.betas/i/a3432
+echo "alias 11='echo "$fin  $ver"'" >> /xg/0r/.betas/i/a3432
+echo "alias 12='echo "$fin  $ama"'" >> /xg/0r/.betas/i/a3432
+echo "alias 13='echo "$fin  $roj"'" >> /xg/0r/.betas/i/a3432
+echo "alias 14='echo "$fin  $ama"'" >> /xg/0r/.betas/i/a3432
+echo "alias 15='echo "$fin  $roj"'" >> /xg/0r/.betas/i/a3432
+echo "alias 16='echo "$fin  $ama"'" >> /xg/0r/.betas/i/a3432
+echo "alias 17='echo "$fin  $gri"'" >> /xg/0r/.betas/i/a3432
+echo "alias 18='echo "$fin  $azu"'" >> /xg/0r/.betas/i/a3432
+echo "alias 19='echo "$fin  $gri"'" >> /xg/0r/.betas/i/a3432
+echo "alias 20='echo "$fin  $pur"'" >> /xg/0r/.betas/i/a3432
+echo "alias 21='echo "$fin  $azu"'" >> /xg/0r/.betas/i/a3432
+echo "alias 22='echo "$fin  $cy"'" >> /xg/0r/.betas/i/a3432
+echo "alias 23='echo "$fin  $pur"'" >> /xg/0r/.betas/i/a3432
+
+
+#alias llo='echo -e "$az NOCHE" '
+
+
+echo $ko >> /xg/0r/.betas/i/a3432
+sh /xg/0r/.betas/i/a3432
+rm -f /xg/0r/.betas/i/a3432
+
+#sh TardeXam
+#kol=$(date +%H)
+#date +%H
+
+
+
+#echo " $kol " >> /xg/0r/.betas/i/pam
+#cat pam
+#sed '1d' /xg/0r/.betas/i/pam
+
+
+
+
+
+#EOF
+
+
+#}
+
+
+
+
+
+
+#ali
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+#! /bin/bash/
+
+temxm=$(touch tem && curl wttr.in/Morelia,Mexico?lang=es|sed 7q|cut -d' ' -f1-14 > tem && cat tem && rm -f tem)
+clear
+echo "$temxm"

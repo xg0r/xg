@@ -1,0 +1,153 @@
+#! /bin/bash/
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[1;31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+neg='\e[1m'
+pur='\033[35m'
+
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[1;4m'
+fos='\e[5m'
+gri='\e[2m'
+
+fin='\e[0m'
+########     Fin Colores ##############----
+
+mem1="$(free -h | sed -n '2p'|cut -d' ' -f11)"
+mem2="$(free -h | sed -n '2p'|cut -d' ' -f18)"
+mem3="$(free -h | sed -n '2p'|cut -d' ' -f25)"
+mem4="$(free -h | sed -n '2p'|cut -d' ' -f39)"
+#
+dd1="$(df -h | sed -n '4p'|cut -d' ' -f9)"
+dd2="$(df -h | sed -n '4p'|cut -d' ' -f12)"
+dd3="$(df -h | sed -n '4p'|cut -d' ' -f14)"
+dd4="$(df -h | sed -n '4p'|cut -d' ' -f16)"
+
+c0lorx="$(sh /xg/0r/.betas/i/colorxx2)"
+#h0r4="$(sh /xg/0r/.betas/i/banhora)"
+date +'%I:%M'|toilet -f future >> lol
+t1="$(sed -n 1p lol)"
+t2="$(sed -n 2p lol)"
+t3="$(sed -n 3p lol)"
+rm -f lol
+
+ppu="$(sh /xg/0r/.betas/i/puertos)"
+c00l="$(sh /xg/0r/.betas/i/color)"
+#bannc0l="$(sh /xg/0r/.betas/i/colorbanner)"
+#------------------------------------------------------------
+
+#########   Fechas/hora   ############
+#diasem="$(date +%A)"
+diasem="$(sh /xg/0r/.betas/i/dias)"
+mes="$(date +%B)"
+diafech="$(date +%e)"
+timme="$(date +'%I:%M')"
+#timme="$(date +'%I:%M'|toilet -f future)"
+ye="$(date +%Y)"
+######################################
+## Variables Especiales de Entrada
+lika1="$(uname -v|cut -d' ' -f3-5)"
+
+lika2="$(uname -o)"
+
+lika3="$(uname -m)"
+#-------------------------------------------
+clear
+ echo "
+
+
+$ama
+
+
+____ ____ ____ ____ ____ _  _ ___  ____    
+|    |__| |__/ | __ |__| |\ | |  \ |  |    
+|___ |  | |  \ |__] |  | | \| |__/ |__| $fos.$fin$fos.$fin$fin$fos.$fin
+
+$fin
+[$roj$lika1 - $lika2-$lika3$fin]
+"
+sleep 1s
+########################### ip/red ####################
+#ipp="$(curl ifconfig.co)" > /dev/null 2>&1
+ipp="$(curl ifconfig.me)" > /dev/null 2>&1
+ip="$(ip route show|grep ' src ' |cut -d' ' -f9)"
+ant3=`netstat -r | grep "default" | awk {'print $8'}`
+nomred="$(nmcli c|sed -n '2p'|cut -d' ' -f1)"
+#ipx=$(hostname -I)
+routt="$(ip route show|grep ' dhcp '|cut -d' ' -f3)"
+#
+temxm=$(touch tem && curl wttr.in/Morelia,Mexico?lang=es|sed -n '3p'|cut -d' ' -f14-19 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+#
+temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f13-14 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f10-11 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f9-14 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+
+c0mp=$(touch te && whois $ipp|sed -n '19p'|cut -d' ' -f8-14 > te && cat te && rm -f te) > /dev/null 2>&1
+
+#####################################
+#cat /xg/0r/.betas/bann/bann3c
+#read varr
+k44="$(sh /xg/0r/.betas/i/pm-am2)"
+clear
+
+
+
+
+
+      
+echo "      ┌─┤$ama Nombre_de_Red  $fin ┌─┤$ama𝙄𝙋 Ðêl Rðµ†êr $fin
+      └──┤$fin $roj$nomred$fin      └───┤$ro2$routt$fin   $c0lorx
+           ──▄────▄▄▄▄▄▄▄────▄─── 
+           ─▀▀▄─▄█████████▄─▄▀▀── 
+           ─────██─▀███▀─██────── 
+           ───▄─▀████▀████▀─▄──── 
+            ▀█────██▀█▀██────█▀── $fin
+┌─┤\033[1;33mIP PЯIVΛDΛ$fin──────┤\033[91m$ip $fin 
+│                   
+└──┤\033[1;33mIP PЦBlIcΛ$fin──────┤\033[91m$ipp $fin 
+  " 
+
+ echo "▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░$fin ┌─\033[1;33mMɆ₥ØⱤł₳$fin───┐$fin  
+▐▓█░░░░▀▄░░░█▓▌░█▄▄▄█░$fin └┤\033[91m₮Ø₮₳Ⱡ:$fin$mem1β 
+▐▓█░░░▀▀▀░░░█▓▌░█▄▄▄█░ \033[91mɄ₴₳₦ĐØ:$fin$mem2β  
+▐▓█▄▄▄▄▄▄▄▄▄█▓▌░██⚡█░ \033[91m₴ł₦ Ʉ₴₳Ɽ:$fin$mem3β 
+   ▄▄▄███▄▄▄   ░█████░ \033[33mB₳₴ɄⱤ₳ ₵₳₵ⱧɆ:$fin$mem4
+\033[1;33mᴅɪꜱᴄᴏ|ᴅᴜʀᴏ$fin >\033[36m Total::$fin$dd1β   
+┌─\033[36mUsado::$fin$dd2β > $dd4                     
+└┤$ver Espacio Libre::$fin$dd3β"
+echo "─────────────────────────────────────────────   
+$am0$diasem$fin
+           \033[1;33m$diafech$fin•$ro2$mes$fin•$cy0$ye$fin            
+    $c00l$t1$fin 
+    $c00l$t2$fin
+    $c00l$t3$fin$k44 $fin 
+
+$temm $temxm"  
+#echo $fin $neg reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows
+#    \CurrentVersion\Policies\System /v EnableLUA 
+#  /t REG_DWORD /d 0 /f $fin
+#echo "$ppu"
+
+
+
+ 
+
+
+
+
+

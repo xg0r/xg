@@ -1,0 +1,191 @@
+#! /bin/bash/
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[1;31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+
+pur='\033[35m'
+gri="$(tput setaf 8)"
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[1;4m'
+fos='\e[5m'
+#gri='\e[2m'
+
+fin='\e[0m'
+############3
+azzu="\[$(tput setaf 4)\]"
+veer="\[$(tput setaf 2)\]"
+cyy="\[$(tput setaf 6)\]"
+rooj="\[$(tput setaf 1)\]"
+roos="\[$(tput setaf 5)\]"
+amma="\[$(tput setaf 3)\]"
+blan="\[$(tput setaf 7)\]"
+fnn="\[$(tput sgr0)\]"
+zzu='\e[4m'
+
+########     Fin Colores ##############----
+
+mem1="$(free -h | sed -n '2p'|cut -d' ' -f11)"
+mem2="$(free -h | sed -n '2p'|cut -d' ' -f18)"
+mem3="$(free -h | sed -n '2p'|cut -d' ' -f25)"
+mem4="$(free -h | sed -n '2p'|cut -d' ' -f39)"
+#
+dd1="$(df -h | sed -n '4p'|cut -d' ' -f9)"     > /dev/null 2>&1
+dd3="$(df -h | sed -n '4p'|cut -d' ' -f14)" > /dev/null 2>&1
+dd2="$(df -h | sed -n '4p'|cut -d' ' -f12)" > /dev/null 2>&1
+dd4="$(df -h | sed -n '4p'|cut -d' ' -f16)" > /dev/null 2>&1
+
+
+#h0r4="$(sh /xg/0r/.betas/i/banhora)"
+
+
+clxx="$(sh /xg/0r/.betas/i/colorr)"
+clx="$(sh /xg/0r/.betas/i/color)"
+#------------------------------------------------------------
+
+#########   Fechas/hora   ############
+#diasem="$(date +%A)"
+diasem="$(sh /xg/0r/.betas/i/dias)"
+#mes="$(date +%B)"
+mes="$(sh /xg/0r/.betas/i/meses)"
+diafech="$(date +%e)"
+timme="$(date +'%I:%M')"
+#timme="$(date +'%I:%M'|toilet -f future)"
+ye="$(date +%Y)"
+######################################
+## Variables Especiales de Entrada
+lika1="$(uname -v|cut -d' ' -f3-5)"
+
+lika2="$(uname -o)"
+
+lika3="$(uname -m)"
+
+
+#-------------------------------------------
+clear
+ echo "
+$fin
+   
+┏━━┓
+┗┓┏┛                         $roj █░░$fin
+╋┃┃                          $roj █░░$fin
+╋┗┛ ｅ ｒ ｍ ｉ ｎ ａ ｌ  $fos▄$fin$roj   █▄▄ 丨 П Ʉ X 
+                      
+  
+           🇨​​​​​ 🇦​​​​​ 🇷​​​​​ 🇬​​​​​ 🇦​​​​​ 🇳​​​​​ 🇩​​​​​ 🇴​​​​​ $fin$fos .  .  . $fin
+                     
+$fin"
+#zyz="$(cd /xg/g1t/neofetch ; ./neofetch )"
+#echo "
+
+#$zyz
+#"
+#
+#          [$roj$lika1 > $lika2-$lika3$fin]
+
+
+#
+#▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░ ┌─\033[1;33mMɆ₥ØⱤł₳>尺卂爪:::$fin  
+#▐▓█░░░░▀▄░░░█▓▌░█▄▄▄█░ └┤\033[91m₮Ø₮₳Ⱡ:$fin$mem1 
+#▐▓█░░░▀▀▀░░░█▓▌░█▄▄▄█░ \033[91mɄ₴₳₦ĐØ:$fin$mem2  
+#▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░ \033[91m₴ł₦ Ʉ₴₳Ɽ:$fin$mem3 
+ #   ▄▄███▄▄    ░█████░ \033[33mB₳₴ɄⱤ₳ ₵₳₵ⱧɆ:$fin$mem4
+#
+#\033[1;33mᴅɪꜱᴄᴏ|ᴅᴜʀᴏ$fin┌─\033[36m Total::$fin$dd1β | \033[36mUsado::$fin$dd2β❗$dd4                       
+#          └┤$ver Espacio Libre::$fin$dd3β
+#
+
+sleep 1s
+########################### ip/red ####################
+#ipp="$(curl ifconfig.co)" > /dev/null 2>&1
+ipp="$(curl ifconfig.me)" > /dev/null 2>&1
+ip="$(ip route show|grep ' src ' |cut -d' ' -f9)"
+ant3=`netstat -r | grep "default" | awk {'print $8'}`
+nomred="$(nmcli c|sed -n '2p'|cut -d' ' -f1)"
+#ipx=$(hostname -I)
+routt="$(ip route show|grep ' dhcp '|cut -d' ' -f3)"
+#
+temxm=$(touch tem && curl wttr.in/Morelia,Mexico?lang=es|sed -n '3p'|cut -d' ' -f14-29 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+#
+#temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f13-14 > tem && cat tem && rm -f tem)
+#temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f10-11 > tem && cat tem && rm -f tem)
+temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f9-15 > tem && cat tem && rm -f tem) > /dev/null 2>&1
+
+#c0mp=$(touch te && whois $ipp|sed -n '19p'|cut -d' ' -f8-14 > te && cat te && rm -f te) > /dev/null 2>&1
+
+# ="$( )"
+
+
+
+
+#="$(cat i8)"
+
+
+#####################################
+#read varr
+#m4t="$(sh /xg/0r/.betas/i/matrixc0l0r)"
+d11a="$(sh /xg/0r/.betas/i/diiia)"
+
+#cmatrix -B -C $m4t -u 9 -s
+rel="$(sh /xg/0r/.betas/bann/reloj-color)"
+tty-clock -C $rel -t -c -S
+
+date +'%I:%M'|toilet -f future >> lol
+t1="$(sed -n 1p lol)"
+t2="$(sed -n 2p lol)"
+t3="$(sed -n 3p lol)"
+rm -f lol
+k44="$(sh /xg/0r/.betas/i/pm-am2)"
+clear
+echo "
+       $fin 
+              📡$fin[$roj$ant3$fin]             
+                                  $amaɴᴏᴍʙʀᴇ ᴅᴇ ʟᴀ ʀᴇᴅ:$fin $nomred$fin             
+            $ama Rðµ†êr$fin:: $ro2$routt$fin        
+ 🏠$roj$ip $fin
+"                                                                                                                  
+echo "      $clx$t1$fin     $clxx$diasem 🔹 $fin$diafech$fin    
+      $clx$t2$fin      
+      $clx$t3$fin         ﻿$mes 🔹 $cy0$ye$clxx       
+      $k44$fin        
+                                                     
+                      $temm $temxm 
+$d11a"
+
+echo "      $fin       "
+
+
+
+#read varr
+
+#####################################
+#    case $kaos in
+#	     a ) clear; banne1;;
+#	     z ) sleep 1; exit;;
+#	     * ) sleep 1; echo "[1;31m
+#  Opción incorrecta";sleep 1; clear; enterchaoss;;
+#    esac
+####################################
+
+ # if [ $varr = "1" ]; then
+#clear
+#	 echo "
+
+#"
+#else
+#echo ""
+#fi

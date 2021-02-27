@@ -1,0 +1,43 @@
+#! /bin/bash/
+apt-get update
+apt-get install toilet -y 
+apt-get  install asciinema -y 
+apt-get install tilda -y
+
+apt-get install cmatrix -y
+
+apt-get install moc -y
+
+apt-get install axel -y
+
+# date --set "18:41"
+
+apt-get install tor -y
+
+apt-get install eog -y
+
+apt-get install nemo moc -y
+
+
+apt-get install curl -y
+apt-get install bettercap -y
+## https://github.com/evilsocket/bettercap.git
+
+
+apt-get install python3 -y
+
+python3 -m pip install -U pip
+
+pip install ffmpeg
+
+pip install youtube-dl
+pip install mps-youtube
+pip install bandcamp-downloader
+
+pip install mpv
+
+pip install butterfly
+
+
+
+apt install kali-desktop-gnome -y

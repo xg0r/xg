@@ -1,0 +1,22 @@
+#! /bin/bash/
+clear
+# script crear  ####
+echo "
+
+──▄────▄▄▄▄▄▄▄────▄───
+─▀▀▄─▄█████████▄─▄▀▀──
+─────██─▀███▀─██──────
+───▄─▀████▀████▀─▄────
+─▀█────██▀█▀██────█▀──
+【﻿Ｃｒｅａｒ　Ｓｃｒｉｔｐ】   
+
+"
+echo -n " ├──────────────────────────Nombre de Archivo───────────> "
+read subx
+touch $subx
+cat /xg/0r/notas/base >> $subx
+
+
+
+/opt/sublime_text/sublime_text $subx
+clear
