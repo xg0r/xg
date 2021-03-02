@@ -14,7 +14,7 @@ echo "
 echo -n " ├──────────────────────────Nombre de Archivo───────────> "
 read subx
 touch $subx
-cat /xg/0r/notas/base >> $subx
+cat /xg/0r/alias/base >> $subx
 
 
 

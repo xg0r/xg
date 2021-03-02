@@ -22,7 +22,7 @@ apt-get install nemo moc -y
 apt-get install curl -y
 apt-get install bettercap -y
 ## https://github.com/evilsocket/bettercap.git
-
+apt-get  install cryptsetup -y
 
 apt-get install python3 -y
 
