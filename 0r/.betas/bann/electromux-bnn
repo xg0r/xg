@@ -67,7 +67,7 @@ clx="$(sh /xg/0r/.betas/i/color)"
 inici0 () {
 	echo ""
 clear
-echo "clxx
+echo "$clx
 
 
 

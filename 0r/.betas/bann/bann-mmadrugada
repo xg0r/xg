@@ -95,25 +95,28 @@ temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f9-15 >
 inici0 () {
 	echo ""
 clear
-echo "       $fin 
-       📡$fin[$roj$ant3$fin]    $ama📻Rðµ†êr$fin:: $ro2$routt$fin       
-             
- 🏠$roj$ip $fin     $ama∏ombre_de_la_Red:$fin $nomred$fin   
+echo "
+       $fin 
+                           📡$fin[$roj$ant3$fin]             
+  $amaᖇEᗪ.ᗯIᖴI:$fin $nomred$fin             
+                  
+ 🏠 $roj$ip $fin  $ama Rðµ†êr$fin:: $ro2$routt$fin 
+  
 $clx
-                                    _______________________       |      
+                                    ________________________      |      
                                    |  ________   _________  |     |      
-                                   | |        | |$fin    __ $clx | |     |      
-                                   | |        | |$fin  ,°,.*.$clx| |     |      
-                                   | |        | |$fin :-.-/._$clx| |     |      
-               $clxx$t1$clx     | |        | |$fin :) _° .$clx| |     |      
-               $clxx$t2$clx     | |        | |$fin  °:_)_-$clx| |     |      
+                                   | |$fin .  $clx   | |$fin.   __ $clx | |     |      
+                                   | |$fin  *$clx    | |$fin  ,°,.*.$clx| |     |      
+                                   | |$fin     .$clx | |$fin :-.-/._$clx| |     |      
+               $clxx$t1$clx     | | $fin    .$clx | |$fin :) _° .$clx| |     |      
+               $clxx$t2$clx     | | $fin *$clx    | |$fin  °:_)_-$clx| |     |      
                $clxx$t3$clx     | |________| |_________| |     |      
-               $k44$clx     |  ________   _________  |     |      
+               $k44$clx    |  ________   _________  |     |      
                                    | |        | |         | |     |      
+                                   | |$fin°$clx   $fin,$clx | |   $fin.*$clx   | |     |      
                                    | |        | |         | |     |      
-                                   | |        | |         | |     |      
-                                   | |        | |         | |     |      
-                                   | |        | |         | |     |      
+                                   | |   $fin.  °$clx| |     $fin.$clx  | |     |      
+                                   | |$fin*$clx      | | $fin°$clx      | |     |      
                                    | |________| |_________| |     |      
                                    |________________________|     |      
                                                                   |      
