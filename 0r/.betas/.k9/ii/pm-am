@@ -33,48 +33,48 @@ fin='\e[0m'
 #                                         /dev/null 2>&1 &
 #echo "$az"
 
-#cat << EOF > /home/guty/.k9/ii/54rgfed2
-touch /home/guty/.k9/ii/54rgfed2
-echo '#! /bin/bash/' >> /home/guty/.k9/ii/54rgfed2
+#cat << EOF > /home/uxer/.k9/ii/54rgfed2
+touch /home/uxer/.k9/ii/54rgfed2
+echo '#! /bin/bash/' >> /home/uxer/.k9/ii/54rgfed2
 
 
-#echo "az='\033[34m'" >> /home/guty/.k9/ii/54rgfed2
+#echo "az='\033[34m'" >> /home/uxer/.k9/ii/54rgfed2
 
-#echo "clear" >> /home/guty/.k9/ii/54rgfed2
-#echo "azz=$(echo '\e[34m')" >> /home/guty/.k9/ii/54rgfed2
+#echo "clear" >> /home/uxer/.k9/ii/54rgfed2
+#echo "azz=$(echo '\e[34m')" >> /home/uxer/.k9/ii/54rgfed2
 
-echo "alias 00='echo "$fin$cy🌙ΛＭ"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 01='echo "$fin$azu🌜₳₥"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 02='echo "$fin$cy🌔ΛＭ"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 03='echo "$fin$cy🌑₳₥"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 04='echo "$fin$cy🌙ΛＭ"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 05='echo "$fin$pur🌠₳₥"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 06='echo "$fin$cy🌄ΛＭ"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 07='echo "$fin$pur🌞₳₥"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 08='echo "$fin$pur🔅ΛＭ"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 09='echo "$fin$ama⛅₳₥"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 10='echo "$fin$ver🌞ΛＭ"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 11='echo "$fin₳m🌞"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 12='echo "$ama🌞þM"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 13='echo "$ama⛅卩爪"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 14='echo "$ama🌞þM"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 15='echo "$ama⛅卩爪"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 16='echo "$ama🌞þM"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 17='echo "$ama⛅卩爪"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 18='echo "$pur🌇þM"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 19='echo "$azu🌜卩爪"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 20='echo "$azu🌙þM"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 21='echo "$azu🌛卩爪"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 22='echo "$azu🌜þM"'" >> /home/guty/.k9/ii/54rgfed2
-echo "alias 23='echo "$azu🌘卩爪"'" >> /home/guty/.k9/ii/54rgfed2
+echo "alias 00='echo "$fin$cy🌙ΛＭ"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 01='echo "$fin$azu🌜₳₥"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 02='echo "$fin$cy🌔ΛＭ"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 03='echo "$fin$cy🌑₳₥"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 04='echo "$fin$cy🌙ΛＭ"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 05='echo "$fin$pur🌠₳₥"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 06='echo "$fin$cy🌄ΛＭ"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 07='echo "$fin$pur🌞₳₥"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 08='echo "$fin$pur🔅ΛＭ"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 09='echo "$fin$ama⛅₳₥"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 10='echo "$fin$ver🌞ΛＭ"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 11='echo "$fin₳m🌞"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 12='echo "$ama🌞þM"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 13='echo "$ama⛅卩爪"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 14='echo "$ama🌞þM"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 15='echo "$ama⛅卩爪"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 16='echo "$ama🌞þM"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 17='echo "$ama⛅卩爪"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 18='echo "$pur🌇þM"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 19='echo "$azu🌜卩爪"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 20='echo "$azu🌙þM"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 21='echo "$azu🌛卩爪"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 22='echo "$azu🌜þM"'" >> /home/uxer/.k9/ii/54rgfed2
+echo "alias 23='echo "$azu🌘卩爪"'" >> /home/uxer/.k9/ii/54rgfed2
 
 
 #alias llo='echo -e "$az NOCHE" '
 
 
-echo $ko >> /home/guty/.k9/ii/54rgfed2
-sh /home/guty/.k9/ii/54rgfed2
-rm -f /home/guty/.k9/ii/54rgfed2
+echo $ko >> /home/uxer/.k9/ii/54rgfed2
+sh /home/uxer/.k9/ii/54rgfed2
+rm -f /home/uxer/.k9/ii/54rgfed2
 
 #sh TardeXam
 #kol=$(date +%H)
@@ -82,9 +82,9 @@ rm -f /home/guty/.k9/ii/54rgfed2
 
 
 
-#echo " $kol " >> /home/guty/.k9/ii/pam
+#echo " $kol " >> /home/uxer/.k9/ii/pam
 #cat pam
-#sed '1d' /home/guty/.k9/ii/pam
+#sed '1d' /home/uxer/.k9/ii/pam
 
 
 
