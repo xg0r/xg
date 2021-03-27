@@ -11,13 +11,18 @@ apt-get install elinks -y
 apt-get install axel -y
 
 # date --set "18:41"
-
+##              https://github.com/claudiodangelis/qrcp/releases    >>   QR
 apt-get install tor torsocks -y
 
 apt-get install eog -y
 
 apt-get install nemo moc -y
 
+
+
+
+apt-get install translate-shell -y
+mv trans /usr/local/bin/traductor
 
 apt-get install curl -y
 apt-get install bettercap -y
