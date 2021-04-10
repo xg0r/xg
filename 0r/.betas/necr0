@@ -1,4 +1,6 @@
 #! /bin/bash/
+apt-get --purge remove zsh -y
+
 apt-get update
 apt-get install toilet -y 
 apt-get  install asciinema -y 
@@ -18,31 +20,40 @@ apt-get install eog -y
 
 apt-get install nemo moc -y
 
+cd /root/Descargas
+wget https://cf1.vuze.com/files/VuzeInstaller.tar.bz2
 
-
-
-apt-get install translate-shell -y
+# Traductor en terminal
+wget git.io/trans
+chmod +x trans
 mv trans /usr/local/bin/traductor
+apt-get install translate-shell -y
+
+#convertir Pdf a imagen
+apt install poppler-utils -y
+### USO:   pdftoppm -jpeg documento.pdf Imagenes/
+### Se divide en imagenes la visualizacion del PDF
+
+apt-get install gimp -y
 
 apt-get install curl -y
 apt-get install bettercap -y
 ## https://github.com/evilsocket/bettercap.git
+
+# encriptar el disco duro
 apt-get  install cryptsetup -y
 
+
 apt-get install python3 -y
-
 python3 -m pip install -U pip
-
 pip install ffmpeg
-
 pip install youtube-dl
 pip install mps-youtube
 pip install bandcamp-downloader
-
 pip install mpv
-
 pip install butterfly
 
 
 
+# Escritorio y ambiente gnome
 apt install kali-desktop-gnome -y

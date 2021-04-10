@@ -109,7 +109,7 @@ $fin"
 #          └┤$ver Espacio Libre::$fin$dd3β
 #
 
-sleep 1s
+
 ########################### ip/red ####################
 #ipp="$(curl ifconfig.co)" > /dev/null 2>&1
 ipp="$(curl ifconfig.me)" > /dev/null 2>&1
@@ -154,7 +154,7 @@ clear
 echo "
        $fin 
                          📡$fin[$roj$ant3$fin]             
-  $amaᖇEᗪ.ᗯIᖴI:$fin $nomred$fin             
+  $ama W_ī_Ƒ_ī:$fin $nomred$fin             
                   
  🏠 $roj$ip $fin  $ama Rðµ†êr$fin:: $ro2$routt$fin 
 "                                                                                                                  
