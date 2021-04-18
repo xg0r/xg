@@ -339,7 +339,7 @@ echo "
     Ｌ ｉ ｍ ｐ ｉ ａ ｎ ｄ ｏ ．．． 🚮
 
 "
-#sync; echo 3 > /proc/sys/vm/drop_caches 
+sync; echo 3 > /proc/sys/vm/drop_caches 
 apt-get autoclean > /dev/null 2>&1
 apt-get clear cache > /dev/null 2>&1
 echo "

@@ -30,7 +30,7 @@ mv trans /usr/local/bin/traductor
 apt-get install translate-shell -y
 
 #convertir Pdf a imagen
-apt install poppler-utils -y
+apt-get install poppler-utils -y
 ### USO:   pdftoppm -jpeg documento.pdf Imagenes/
 ### Se divide en imagenes la visualizacion del PDF
 
@@ -42,8 +42,10 @@ apt-get install bettercap -y
 
 # encriptar el disco duro
 apt-get  install cryptsetup -y
+apt-get install ccrypt -y
 
 
+#######   Python &   PIP
 apt-get install python3 -y
 python3 -m pip install -U pip
 pip install ffmpeg
@@ -53,6 +55,11 @@ pip install bandcamp-downloader
 pip install mpv
 pip install butterfly
 
+
+### Spotify
+curl -sS curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+apt-get update && sudo apt-get install spotify-client
 
 
 # Escritorio y ambiente gnome

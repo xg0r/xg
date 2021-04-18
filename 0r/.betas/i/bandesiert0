@@ -1,7 +1,10 @@
 #! /bin/bash/
 clxx="$(sh /xg/0r/.betas/i/colorr)"
 clx="$(sh /xg/0r/.betas/i/color)"
+
+d1a="$(sh /xg/0r/.betas/i/tard33)"
+d11a="$(sh /xg/0r/.betas/i/bandesiert22-)"
 echo -n " $clx"
-cat /xg/0r/.betas/i/bandesiert1
-echo -n " $clxx"
-cat /xg/0r/.betas/i/bandesiert2
+
+echo "$d1a $clxx"
+echo "$d11a"

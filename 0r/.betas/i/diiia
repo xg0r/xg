@@ -46,13 +46,13 @@ echo '#! /bin/bash/' >> /xg/0r/.betas/i/g543tg
 #shs#        green, red, blue, white, yellow, cyan, magenta  black.
 
 echo "alias 00='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 01='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 02='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 03='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 04='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 05='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
+#echo "alias 01='cat /xg/0r/.betas/i/bannoche11'" >> /xg/0r/.betas/i/g543tg
+echo "alias 02='sh /xg/0r/.betas/bann/baNmadru3'" >> /xg/0r/.betas/i/g543tg
+#echo "alias 03='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
+echo "alias 04='cat /xg/0r/.betas/i/bannoche11'" >> /xg/0r/.betas/i/g543tg
+#echo "alias 05='sh /xg/0r/.betas/i/bann-madruga1'" >> /xg/0r/.betas/i/g543tg
 echo "alias 06='sh /xg/0r/.betas/i/bann-noche1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 07='cat /xg/0r/.betas/i/bannmaña'" >> /xg/0r/.betas/i/g543tg
+echo "alias 07='sh /xg/0r/.betas/i/bannAtarde'" >> /xg/0r/.betas/i/g543tg
 echo "alias 08='cat /xg/0r/.betas/i/bannmaña'" >> /xg/0r/.betas/i/g543tg
 echo "alias 09='cat /xg/0r/.betas/i/bannmaña'" >> /xg/0r/.betas/i/g543tg
 echo "alias 10='cat /xg/0r/.betas/i/bannmaña'" >> /xg/0r/.betas/i/g543tg
@@ -65,9 +65,9 @@ echo "alias 16='sh /xg/0r/.betas/i/bandesiert0'" >> /xg/0r/.betas/i/g543tg
 echo "alias 17='sh /xg/0r/.betas/i/bandesiert0'" >> /xg/0r/.betas/i/g543tg
 echo "alias 18='sh /xg/0r/.betas/i/bannAtarde'" >> /xg/0r/.betas/i/g543tg
 echo "alias 19='sh /xg/0r/.betas/i/bannAtarde'" >> /xg/0r/.betas/i/g543tg
-echo "alias 20='sh /xg/0r/.betas/i/bann-noche1'" >> /xg/0r/.betas/i/g543tg
+echo "alias 20='sh /xg/0r/.betas/bann/baNmadru3'" >> /xg/0r/.betas/i/g543tg
 echo "alias 21='sh /xg/0r/.betas/i/bann-noche1'" >> /xg/0r/.betas/i/g543tg
-echo "alias 22='sh /xg/0r/.betas/i/bann-noche1'" >> /xg/0r/.betas/i/g543tg
+echo "alias 22='cat /xg/0r/.betas/i/bannoche11'" >> /xg/0r/.betas/i/g543tg
 echo "alias 23='sh /xg/0r/.betas/i/bann-noche1'" >> /xg/0r/.betas/i/g543tg
 
 
