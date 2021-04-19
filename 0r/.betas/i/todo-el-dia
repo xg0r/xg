@@ -37,7 +37,6 @@ fin='\e[0m'
 touch /xg/0r/.betas/i/0oo0o
 echo '#! /bin/bash/' >> /xg/0r/.betas/i/0oo0o
 
-
 #echo "az='\033[34m'" >> /xg/0r/.betas/i/0oo0o
 
 #echo "clear" >> /xg/0r/.betas/i/0oo0o
