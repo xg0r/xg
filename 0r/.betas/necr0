@@ -20,8 +20,9 @@ apt-get install eog -y
 
 apt-get install nemo moc -y
 
-cd /root/Descargas
+cd /root/Documentos
 wget https://cf1.vuze.com/files/VuzeInstaller.tar.bz2
+bzip2 -dc VuzeInstaller.tar.bz2
 
 # Traductor en terminal
 wget git.io/trans
