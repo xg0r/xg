@@ -75,20 +75,27 @@ lika2="$(uname -o)"
 lika3="$(uname -m)"
 
 
-#-------------------------------------------
-clear
- echo "
-$fin
-   
-┏━━┓
-┗┓┏┛                         $roj █░░$fin
-╋┃┃                          $roj █░░$fin
-╋┗┛ ｅ ｒ ｍ ｉ ｎ ａ ｌ  $fos▄$fin$roj   █▄▄ 丨 П Ʉ X 
-                      
-  
-           🇨​​​​​ 🇦​​​​​ 🇷​​​​​ 🇬​​​​​ 🇦​​​​​ 🇳​​​​​ 🇩​​​​​ 🇴​​​​​ $fin$fos .  .  . $fin
-                     
-$fin"
+#-------------------------------------------#
+#clear
+                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+                   
 #zyz="$(cd /xg/g1t/neofetch ; ./neofetch )"
 #echo "
 
@@ -139,7 +146,7 @@ temm=$(touch tem && curl wttr.in/Morelia,Mexico?0|sed -n '4p'|cut -d' ' -f9-15 >
 #read varr
 #   m4t="$(sh /xg/0r/.betas/i/matrixc0l0r)"
 #     d11a="$(sh /xg/0r/.betas/i/diiia)"
-
+clear
 #cmatrix -B -C $m4t -u 9 -s
 rel="$(sh /xg/0r/.betas/bann/reloj-color)"
 tty-clock -C $rel -t -c -S

@@ -68,18 +68,18 @@ lika3="$(uname -m)"
 
 #-------------------------------------------
 #clear
-# echo "
-#$fin
-#   
-#┏━━┓
-#┗┓┏┛                         $roj █░░$fin
-#╋┃┃                          $roj █░░$fin
-#╋┗┛ ｅ ｒ ｍ ｉ ｎ ａ ｌ  $fos▄$fin$roj   █▄▄ 丨 П Ʉ X 
+                                     # echo "
+                                     #$fin
+                                     #   
+                                     #┏━━┓
+                                     #┗┓┏┛                         $roj █░░$fin
+                                     #╋┃┃                          $roj █░░$fin
+                                     #╋┗┛ ｅ ｒ ｍ ｉ ｎ ａ ｌ  $fos▄$fin$roj   █▄▄ 丨 П Ʉ X 
                       
   
- #          🇨​​​​​ 🇦​​​​​ 🇷​​​​​ 🇬​​​​​ 🇦​​​​​ 🇳​​​​​ 🇩​​​​​ 🇴​​​​​ $fin$fos .  .  . $fin
+                                     #          🇨​​​​​ 🇦​​​​​ 🇷​​​​​ 🇬​​​​​ 🇦​​​​​ 🇳​​​​​ 🇩​​​​​ 🇴​​​​​ $fin$fos .  .  . $fin
                      
-#$fin"
+                                     #$fin"
 #zyz="$(cd /xg/g1t/neofetch ; ./neofetch )"
 #echo "
 
@@ -161,7 +161,7 @@ $d114"
 
 echo "      $fin                     $temm $temxm   "
 
-
+            
 
 #read varr
 

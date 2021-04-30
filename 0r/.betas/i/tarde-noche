@@ -33,84 +33,84 @@ fin='\e[0m'
 #                                         /dev/null 2>&1 &
 #echo "$az"
 
-#cat << EOF > /xg/0r/.betas/i/aliaz
-touch /xg/0r/.betas/i/aliaz
-echo '#! /bin/bash/' >> /xg/0r/.betas/i/aliaz
+#cat << EOF > /xg/0r/.betas/i/aliii
+touch /xg/0r/.betas/i/aliii
+echo '#! /bin/bash/' >> /xg/0r/.betas/i/aliii
 
 
-#echo "az='\033[34m'" >> /xg/0r/.betas/i/aliaz
+#echo "az='\033[34m'" >> /xg/0r/.betas/i/aliii
 
-#echo "clear" >> /xg/0r/.betas/i/aliaz
-#echo "azz=$(echo '\e[34m')"sh /xg/0r/.betas/i/bannAtarde
-echo "alias 08:00='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:01='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:02='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:03='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:04='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:05='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:06='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:07='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:08='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:09='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:10='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:11='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:12='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:13='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:14='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:15='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:16='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:17='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:18='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:19='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:20='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:21='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:23='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:22='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:24='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:25='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:26='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:27='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:28='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:29='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:30='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:31='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:32='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:33='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:34='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:35='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:36='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:37='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:38='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:39='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:40='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:41='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:42='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:43='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:44='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:45='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:46='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:47='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:48='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:49='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:50='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:51='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:52='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:53='echo "sh /xg/0r/.betas/i/bannAtarde"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:54='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:55='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:56='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:57='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:58='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
-echo "alias 08:59='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliaz
+#echo "clear" >> /xg/0r/.betas/i/aliii
+#echo "azz=$(echo '\e[34m')"sh /xg/0r/.betas/i/bannAtarde1
+echo "alias 08:00='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:01='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:02='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:03='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:04='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:05='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:06='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:07='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:08='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:09='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:10='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:11='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:12='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:13='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:14='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:15='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:16='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:17='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:18='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:19='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:20='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:21='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:23='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:22='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:24='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:25='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:26='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:27='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:28='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:29='echo "sh /xg/0r/.betas/i/bannAtarde1"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:30='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:31='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:32='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:33='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:34='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:35='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:36='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:37='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:38='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:39='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:40='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:41='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:42='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:43='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:44='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:45='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:46='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:47='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:48='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:49='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:50='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:51='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:52='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:53='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:54='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:55='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:56='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:57='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:58='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
+echo "alias 08:59='echo "sh /xg/0r/.betas/bann/baNmadru3"'" >> /xg/0r/.betas/i/aliii
 
 
 
 #alias llo='echo -e "$az NOCHE" '
 
 
-echo $ko >> /xg/0r/.betas/i/aliaz
-sh /xg/0r/.betas/i/aliaz
-rm -f /xg/0r/.betas/i/aliaz
+echo $ko >> /xg/0r/.betas/i/aliii
+sh /xg/0r/.betas/i/aliii
+rm -f /xg/0r/.betas/i/aliii
 
 #sh TardeXam
 #kol=$(date +%H)
